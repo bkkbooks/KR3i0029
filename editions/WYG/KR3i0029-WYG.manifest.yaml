@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR3i0029/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3i0029/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洛陽牡丹記
+  date: '2015-08-24 23:18:12.271406'
+  source:
+    repository: kanripo
+    path: KR3i0029
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3i0029_000-WYG.yaml, hash: 'sha256:fb24603677bc79fbc72e213d2a5204fa21ed1ca7eb3235e90e37288ace76998f'}
+  - {seq: 1, filename: KR3i0029_001-WYG.yaml, hash: 'sha256:2e598058e1493b30f1ead7a73932d947c6a433a30ff82df2c34048461614e03e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3i0029_000-WYG.markers.yaml, hash: 'sha256:23860335e350a658f501f423f4b10bfb8b8cc503436552676a44f4a0e36657b2'}
+  - {seq: 1, role: markers, filename: assets/KR3i0029_001-WYG.markers.yaml, hash: 'sha256:8eb91ca1864aef4be3ab162d800511fd182b411d36c66eeb9743c8abb87cff9f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3i0029_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 654
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3i0029_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 2714
+  label: 洛陽牡丹記
+  type: section
+  level: 1
+hash: sha256:845290d27fecbef0330dc138069ad483c812c1c9ba7ee0b84cd2785e5c13e256

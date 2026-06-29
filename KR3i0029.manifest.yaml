@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR3i0029/v1
+canonical_location: https://kanripo.org/bkk/KR3i0029/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 洛陽牡丹記
+  date: '2015-08-24 23:18:12.271406'
+  source:
+    repository: kanripo
+    path: KR3i0029
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3i0029_000.yaml, hash: 'sha256:4b4bc7eaa8d208e564fdb1c6d50e9eb877ebeabf651f1f0b74c6d793bab23759'}
+  - {seq: 1, filename: KR3i0029_001.yaml, hash: 'sha256:acb60e2807a486e3728fb980389ded6f7fc407ee448b373d8927062ecf96735b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3i0029_000.markers.yaml, hash: 'sha256:0e34b81c4a9ccdbfaed1eee7aa9efba096f2aae73e8a8d81a3ad2034f1722d2f'}
+  - {seq: 1, role: markers, filename: assets/KR3i0029_001.markers.yaml, hash: 'sha256:f90c94fb048a1e73da1bde5e1b466e069571f56aa10558d75e81945950e531dc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3i0029_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 654
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3i0029_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 2714
+  label: 洛陽牡丹記
+  type: section
+  level: 1
+hash: sha256:3830bedfbdfcfd46bb99d465edb66bf3804d35a0104833c7b0dd1418fcebfcb5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
